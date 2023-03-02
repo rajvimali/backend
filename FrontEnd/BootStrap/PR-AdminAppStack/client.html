@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PR-Client/AppStack</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="asset/css/all.min.css" class="rel">
+
+    <!-- Calender css -->
+    <link rel="stylesheet" href="asset/css/calender.css" class="rel">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css" class="rel">
+
+    <!-- css -->
+    <link rel="stylesheet" href="asset/css/style.css" class="rel">
+</head>
+
+<body>
+    <!-- Slider Start -->
+    <div class="d-flex">
+        <div class="wapper col-lg-2 p-4 active ">
+            <aside >
+                <div class="slider-content position-fixed">
+                    <div class="scrollbar-container text-center">
+                        <span class="slider-brand text-primary fs-4 fw-normal"><i class="fa-solid fa-layer-group"></i> </span> <a href="#" class="slider-brand text-decoration-none text-white fs-4 fw-normal">AppStack</a>
+                    </div>
+                    <ul class="slidebar-nav"  style="padding-left: 0;">
+                        <li class="slidebar-header pt-4">Pages</li>
+                        <div class="slidebar-item ps-3 py-3 ">
+                            <a href="#" class="text-decoration-none navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hasdropdown1"><i class="fa-solid fa-sliders pe-2"></i> <span> Dashboards</span></a>
+                        </div>
+                        <ul class="slidbar-dropdown list-unstyled collapse show" id="hasdropdown1">
+                            <li class="slidebar-item py-2 ps-5"><a href="index.html" class="text-decoration-none slidebar-link active"><span>Default</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Analytics</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="saas.html" class="text-decoration-none slidebar-link "><span>SaaS</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="social.html" class="text-decoration-none slidebar-link "><span>Social</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Crypto</span></a></li>
+                        </ul>
+                        <div class="slidebar-item ps-3 py-3 ">
+                            <a href="#" class="text-decoration-none navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hasdropdown2"><i class="fa-regular fa-file pe-2"></i> <span> Pages</span></a>
+                        </div>
+                        <ul class="slidbar-dropdown-1 list-unstyled collapse show" id="hasdropdown2">
+                            <li class="slidebar-item py-2 ps-5"><a href="profile.html" class="text-decoration-none slidebar-link"><span>Profile</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Settings</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="client.html" class="text-decoration-none slidebar-link "><span>Clients</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Projects</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Invoice</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Pricing</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Tasks</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Chat</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Blank Page</span></a></li>
+                        </ul>
+                        <div class="slidebar-item ps-3 py-3 ">
+                            <a href="#" class="text-decoration-none navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hasdropdown"><i class="fa-solid fa-user-group pe-2"></i> <span> Auth</span></a>
+                        </div>
+                        <ul class="slidbar-dropdown-1 list-unstyled collapse" id="hasdropdown">
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link active"><span>Sign In</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Sign Up</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Reset Password</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>404 Page</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>500 Page</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Chat</span></a></li>
+                        </ul>
+                        <div class="slidebar-item ps-3 py-3 ">
+                            <a href="#" class="text-decoration-none navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hasdropdown"><i class="fa-solid fa-book-open pe-2"></i> <span> Documentation</span></a>
+                        </div>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <!-- Slider End -->
+        
+        <div class="main position-sticky w-100">
+        <!-- Header Start -->
+        <section>
+            <div class="contianer-fluid">
+                <div class="header nav-light">
+                    <nav class=" navbar p-3 shadow-sm">
+                        <div class="d-flex flex-wrap align-items-center">
+                            <button type="button" class="btn text-dark fs-3 d-inline display-3 me-3" id="my-toggle"  aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="border-0" style="color: rgb(73, 80, 87);"><i class="fa-solid fa-align-left"></i></span> 
+                            </button>
+
+                            <form action="" class="px-1">
+                                <div class="d-flex input-group-navbar input-group">
+                                    <input class="form-control border-0" type="search" placeholder="Search Projects..." aria-label="Search">
+                                    <button class="btn text-muted" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <ul class="d-flex flex-wrap align-items-center">
+                            <li class="nav-item text-muted pe-3 fs-5"><i class="fa-regular fa-comment"></i></li>
+                            <li class="nav-item text-muted pe-3 fs-5"><i class="fa-regular fa-bell-slash"></i></li>
+                            <li class="nav-item  rounded-circle overflow-hidden lh-1 me-1" style="width:26px; height:26px;" >
+                                <img src="asset/images/nav-flag.png" alt="" class="src" width="100%" height="100%">
+                            </li> 
+                            <li class="nav-item  rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                <img src="asset/images/nav-avtar.jpg" alt="" class="src" width="100%" height="100%">
+                            </li> 
+                            <li class="nav-item text-muted list-unstyled me-3 dropdown-toggle">
+                                Chris Mood 
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- Header End -->
+
+        <!-- Client Start -->
+        <section>
+            <div class="content p-5">
+                <div class="contianer-fluid">
+                    <div class="mb-2 mb-xl-3 row">
+                        <div class="d-none d-sm-block col-auto">
+                            <h3 style="color: rgb(73, 80, 87);">Clients</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Chart JS -->
+
+                <!-- Table Start -->
+                <div class="row">
+                    <div class="shadow col-lg-8">
+                        <div class="charts mt-4 py-2 px-3 ">
+                            <div class="p-0 d-flex">
+                                <div class=" row g-0 w-100">
+                                    <div class="chart-header py-2 d-flex justify-content-between">
+                                        <h5 class="text-muted">Clients</h5>
+                                        <i class="fa-solid fa-ellipsis fs-4 text-muted"></i>
+                                    </div>
+                                    <table class="table table-striped text-muted">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Company</th>
+                                            <th scope="col">Email</th>
+                                            <th scope="col">Status</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr class="text-muted">
+                                            <th scope="row">
+                                                <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar-4.jpg" alt="" class="src" width="100%" height="100%">
+                                                </div>
+                                            </th>
+                                            <td>Angelica Ramos</td>
+                                            <td>The Wiz</td>
+                                            <td>angelica@ramos.com</td>
+                                            <td><span class="badge bg-success">Active</span></td>
+                                          </tr>
+                                          <tr class="text-muted">
+                                            <th scope="row">
+                                                <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar.jpg" alt="" class="src" width="100%" height="100%">
+                                                </div>
+                                            </th>
+                                            <td>Ashton Cox</td>
+                                            <td>Levitz Furniture</td>
+                                            <td>ashton@cox.com</td>
+                                            <td><span class="badge bg-success">Active</span></td>
+                                          </tr>
+                                          <tr class="text-muted">
+                                            <th scope="row">
+                                                <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar-3.jpg" alt="" class="src" width="100%" height="100%">
+                                                </div>
+                                            </th>
+                                            <td>Brenden Wagner</td>
+                                            <td>The Wiz</td>
+                                            <td>brenden@wagner.com</td>
+                                            <td><span class="badge bg-warning">Inactive</span></td>
+                                          </tr>
+                                          <tr class="text-muted">
+                                            <th scope="row">
+                                                <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar-5.jpg" alt="" class="src" width="100%" height="100%">
+                                                </div>
+                                            </th>
+                                            <td>Charde Marshall</td>
+                                            <td>Price Savers</td>
+                                            <td>charde@marshall.com</td>
+                                            <td><span class="badge bg-success">Active</span></td>
+                                          </tr>
+                                          <tr class="text-muted">
+                                            <th scope="row">
+                                                <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar-4.jpg" alt="" class="src" width="100%" height="100%">
+                                                </div>
+                                            </th>
+                                            <td>Doris Wilder</td>
+                                            <td>Red Robin Stores</td>
+                                            <td>doris@wilder.com</td>
+                                            <td><span class="badge bg-warning">Inactive</span></td>
+                                          </tr>
+                                          <tr class="text-muted">
+                                            <th scope="row">
+                                                <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar-3.jpg" alt="" class="src" width="100%" height="100%">
+                                                </div>
+                                            </th>
+                                            <td>Fiona Green</td>
+                                            <td>The Sample</td>
+                                            <td>fiona@green.com</td>
+                                            <td><span class="badge bg-warning">Inactive</span></td>
+                                          </tr>
+                                          <tr class="text-muted">
+                                            <th scope="row">
+                                                <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar.jpg" alt="" class="src" width="100%" height="100%">
+                                                </div>
+                                            </th>
+                                            <td>Garrett Winters</td>
+                                            <td>Good Guys</td>
+                                            <td>garrett@winters.com</td>
+                                            <td><span class="badge bg-success">Active</span></td>
+                                          </tr>
+                                          <tr class="text-muted">
+                                            <th scope="row">
+                                                <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar-2.jpg" alt="" class="src" width="100%" height="100%">
+                                                </div>
+                                            </th>
+                                            <td>Gavin Cortez</td>
+                                            <td>Red Robin Stores</td>
+                                            <td>gavin@cortez.com</td>
+                                            <td><span class="badge bg-success">Active</span></td>
+                                          </tr>
+                                          <tr class="text-muted">
+                                            <th scope="row">
+                                                <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar-5.jpg" alt="" class="src" width="100%" height="100%">
+                                                </div>
+                                            </th>
+                                            <td>Haley Kennedy</td>
+                                            <td>Helping Hand</td>
+                                            <td>haley@kennedy.com</td>
+                                            <td><span class="badge bg-danger">Deleted</span></td>
+                                          </tr>
+                                          <tr class="text-muted">
+                                            <th scope="row">
+                                                <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar-2.jpg" alt="" class="src" width="100%" height="100%">
+                                                </div>
+                                            </th>
+                                            <td>Howard Hatfield</td>
+                                            <td>Price Savers</td>
+                                            <td>howard@hatfield.com</td>
+                                            <td><span class="badge bg-warning">Inactive</span></td>
+                                          </tr>
+                                          <tr class="text-muted">
+                                            <th scope="row">
+                                                <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar.jpg" alt="" class="src" width="100%" height="100%">
+                                                </div>
+                                            </th>
+                                            <td>Jena Gaines</td>
+                                            <td>Helping Hand</td>
+                                            <td>jena@gaines.com</td>
+                                            <td><span class="badge bg-success">Active</span></td>
+                                          </tr>
+                                          <tr class="text-muted">
+                                            <th scope="row">
+                                                <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar-3.jpg" alt="" class="src" width="100%" height="100%">
+                                                </div>
+                                            </th>
+                                            <td>Jennifer Chang</td>
+                                            <td>Helping Hand</td>
+                                            <td>jennifer@chang.com</td>
+                                            <td><span class="badge bg-warning">Inactive</span></td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Table End -->
+
+                    <div class="d-flex d-inline col-xl-4">
+                        <div class="feed shadow mt-0 py-2 px-3">
+                            <div class="p-0 d-flex">
+                                <div class=" row g-0 w-100">
+                                    <div class="feed-header pb-3 d-flex justify-content-between">
+                                        <h5 class="text-muted ">Angelica Ramos</h5>
+                                    </div>
+                                    <div class="daily-feed-body mt-4">
+                                        <div class="d-flex text-muted mb-3">
+                                            <div class=" row g-0 w-100">
+                                                <div class="col-xxl-3 align-self-center col-xl-12 col-sm-3" style="text-align: -webkit-center;">
+                                                    <div class=" daily-feed-avtar rounded-circle overflow-hidden lh-1" style="width:68px; height:68px;" >
+                                                        <img src="asset/images/nav-avtar-4.jpg" alt="" class="src" width="100%" height="100%">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xxl-9 col-xl-12 col-sm-9">
+                                                    <div class="text-sm  flex-grow-1 mb-3">
+                                                        <strong>About me</strong>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                            </div>
+                                            <table class="table text-muted">
+                                                <tbody>
+                                                  <tr>
+                                                    <th scope="row">Name</th>
+                                                    <td>Angelica Ramo</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">Company</th>
+                                                    <td>The Wiz</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">Email</th>
+                                                    <td>angelica@ramos.com</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">Phone</th>
+                                                    <td>+1234123123123</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">Status</th>
+                                                    <td><span class="badge bg-success">Active</span></td>
+                                                  </tr>
+                                                </tbody>
+                                            </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feed-header pb-3">
+                                <h6 class="text-muted ">Activity</h6>
+                            </div>
+                            <div class=" timeline-client text-muted ps-4 ms-2 mb-3">
+                                <div class="text-sm ms-1 timeline-item-client flex-grow-1 mb-3">
+                                    <strong>Signed out</strong><br>
+                                    <p class="mb-2">Nam pretium turpis et arcu. Duis arcu tortor, suscipit...</p>
+                                </div>
+                                <div class="text-sm ms-1 timeline-item-client flex-grow-1 mb-3">
+                                    <strong>Created invoice #1204</strong><br>
+                                    <p class="mb-2">Sed aliquam ultrices mauris. Integer ante arcu...</p>
+                                </div>
+                                <div class="text-sm ms-1 timeline-item-client flex-grow-1 mb-3">
+                                    <strong>Discarded invoice #1147</strong><br>
+                                    <p class="mb-2">Nam pretium turpis et arcu. Duis arcu tortor, suscipit...</p>
+                                </div>
+                                <div class="text-sm ms-1 timeline-item-client flex-grow-1 mb-3">
+                                    <strong>Signed in</strong><br>
+                                    <p class="mb-2">Curabitur ligula sapien, tincidunt non, euismod vitae...</p>
+                                </div>
+                                <div class="text-sm ms-1 timeline-item-client flex-grow-1 mb-3">
+                                    <strong>Signed up</strong><br>
+                                    <p class="mb-2">Sed aliquam ultrices mauris. Integer ante arcu...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Chart JS -->
+
+            <!-- Footer Start -->
+            <footer class="footer border-top p-3 shadow-sm">
+                <div class="container-fluid">
+                    <div class="text-muted row">
+                        <div class="text-start col-6">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><span class="text-muted" href="#">Support</span></li>
+                                <li class="list-inline-item"><span class="text-muted" href="#">Help Center</span></li>
+                                <li class="list-inline-item"><span class="text-muted" href="#">Privacy</span></li>
+                                <li class="list-inline-item"><span class="text-muted" href="#">Terms of Service</span></li>
+                            </ul>
+                        </div>
+                        <div class="text-end col-6">
+                            <p class="mb-0">© 2023 - <span href="/" class="text-muted">AppStack</span></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer End -->
+        </section>
+        <!-- Client End -->
+    </div>
+    </div>
+
+    <!-- j-query -->
+    <script src="asset/js/jquery-3.6.3.min.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Chart js -->
+    <script src="asset/js/chart.js"></script>
+    <script src="asset/js/chartmain.js"></script>
+
+    <!-- Calender js -->
+    <script src="asset/js/calender.js"></script>
+
+    <script>
+        $('#my-toggle').click(function(){
+            $('.wapper').toggleClass('active').fadeIn('1000');
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PR-Default Dashboard/AppStack</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="asset/css/all.min.css" class="rel">
+
+    <!-- Calender css -->
+    <link rel="stylesheet" href="asset/css/calender.css" class="rel">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css" class="rel">
+
+    <!-- css -->
+    <link rel="stylesheet" href="asset/css/style.css" class="rel">
+</head>
+
+<body>
+    <!-- Slider Start -->
+    <div class="d-flex ">
+        <div class="wapper  position-sticky  col-lg-2 p-4 active ">
+            <aside >
+                <div class="slider-content">
+                    <div class="scrollbar-container text-center">
+                        <span class="slider-brand text-primary fs-4 fw-normal"><i class="fa-solid fa-layer-group"></i> </span> <a href="#" class="slider-brand text-decoration-none text-white fs-4 fw-normal">AppStack</a>
+                    </div>
+                    <ul class="slidebar-nav"  style="padding-left: 0;">
+                        <li class="slidebar-header pt-4">Pages</li>
+                        <div class="slidebar-item ps-3 py-3 ">
+                            <a href="#" class="text-decoration-none navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hasdropdown"><i class="fa-solid fa-sliders pe-2"></i> <span> Dashboards</span></a>
+                        </div>
+                        <ul class="slidbar-dropdown list-unstyled collapse show" id="hasdropdown">
+                            <li class="slidebar-item py-2 ps-5"><a href="index.html" class="text-decoration-none slidebar-link active"><span>Default</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Analytics</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="saas.html" class="text-decoration-none slidebar-link "><span>SaaS</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="social.html" class="text-decoration-none slidebar-link "><span>Social</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Crypto</span></a></li>
+                        </ul>
+                        <div class="slidebar-item ps-3 py-3 ">
+                            <a href="#" class="text-decoration-none navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hasdropdown1"><i class="fa-regular fa-file pe-2"></i> <span> Pages</span></a>
+                        </div>
+                        <ul class="slidbar-dropdown-1 list-unstyled collapse show " id="hasdropdown1">
+                            <li class="slidebar-item py-2 ps-5"><a href="profile.html" class="text-decoration-none slidebar-link"><span>Profile</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Settings</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="client.html" class="text-decoration-none slidebar-link "><span>Clients</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Projects</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Invoice</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Pricing</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Tasks</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Chat</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Blank Page</span></a></li>
+                        </ul>
+                        <div class="slidebar-item ps-3 py-3 ">
+                            <a href="#" class="text-decoration-none navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hasdropdown2"><i class="fa-solid fa-user-group pe-2"></i> <span> Auth</span></a>
+                        </div>
+                        <ul class="slidbar-dropdown-1 list-unstyled collapse" id="hasdropdown2">
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link active"><span>Sign In</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Sign Up</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Reset Password</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>404 Page</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>500 Page</span></a></li>
+                            <li class="slidebar-item py-2 ps-5"><a href="#" class="text-decoration-none slidebar-link "><span>Chat</span></a></li>
+                        </ul>
+                        <div class="slidebar-item ps-3 py-3 ">
+                            <a href="#" class="text-decoration-none" type="button"><i class="fa-solid fa-book-open pe-2"></i><span>Documentation</span></a>
+                        </div>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <!-- Slider End -->
+        
+        <div class="main w-100">
+        <!-- Header Start -->
+        <section>
+            <div class="contianer-fluid">
+                <div class="header nav-light">
+                    <nav class=" navbar p-3 shadow-sm">
+                        <div class="d-flex flex-wrap align-items-center">
+                            <button type="button" class="btn text-dark fs-3 d-inline display-3 me-3" id="my-toggle"  aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="border-0" style="color: rgb(73, 80, 87);"><i class="fa-solid fa-align-left"></i></span> 
+                            </button>
+
+                            <form action="" class="px-1">
+                                <div class="d-flex input-group-navbar input-group">
+                                    <input class="form-control border-0" type="search" placeholder="Search Projects..." aria-label="Search">
+                                    <button class="btn text-muted" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <ul class="d-flex flex-wrap align-items-center">
+                            <li class="nav-item text-muted pe-3 fs-5"><i class="fa-regular fa-comment"></i></li>
+                            <li class="nav-item text-muted pe-3 fs-5"><i class="fa-regular fa-bell-slash"></i></li>
+                            <li class="nav-item  rounded-circle overflow-hidden lh-1 me-1" style="width:26px; height:26px;" >
+                                <img src="asset/images/nav-flag.png" alt="" class="src" width="100%" height="100%">
+                            </li> 
+                            <li class="nav-item  rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                <img src="asset/images/nav-avtar.jpg" alt="" class="src" width="100%" height="100%">
+                            </li> 
+                            <li class="nav-item text-muted list-unstyled me-3 dropdown-toggle">
+                                Chris Mood 
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- Header End -->
+
+        <!-- Dashboard Start -->
+        <section>
+            <div class="content p-5">
+                <div class="contianer-fluid">
+                    <div class="mb-3 p-2 mb-xl-3 row">
+                        <div class="d-none d-sm-block col-auto">
+                            <h3 style="color: rgb(73, 80, 87);">Dashboard</h3>
+                        </div>
+                        <div class="ms-auto text-end mt-n1 col-auto">
+                            <div class="d-inline me-2 dropdown">
+                                <button type="button" class="btn btn-light bg-white shadow-sm dropdown-toggle"><i class="fa-regular fa-calendar"></i> Today</button>
+                            </div>
+                            <div class="shadow-sm d-inline">
+                                <button type="button" class="btn btn-primary"><i class="fa-solid fa-filter"></i></button>
+                            </div>
+                            <div class="shadow-sm d-inline">
+                                <button type="button" class="btn btn-primary"><i class="fa-solid fa-arrows-rotate"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="d-flex col-3 ">
+                        <div class="illustration border-0 card shadow">
+                            <div class="p-1 d-flex card-body">
+                                <div class=" row g-0 w-100">
+                                    <div class="col-6 d-inline p-3 text-primary">
+                                        <h4>Welcome Back ,chris!</h4>
+                                        <p class="mb-0">AppStack Dashboard</p>
+                                    </div>
+                                    <div class="col-6 d-inline align-self-end">
+                                        <img src="asset/images/customer-support.ed122f05.png" alt="" class="src" width="100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex col-3 shadow">
+                        <div class="earnings border-0 card ">
+                            <div class="py-4 d-flex card-body">
+                                <div class=" row g-0 w-100">
+                                    <div class="col-6 flex-grow-1 d-inline p-3 text-primary">
+                                        <h3 style="color: rgb(73, 80, 87);">$ 24.300</h3>
+                                        <p class="mb-0 text-muted">Total Earnings</p><br>
+                                        <div class="mb-0">
+                                            <span class="badge bg-success me-2 badge">+5.35%</span>
+                                            <span class="text-muted">Since last week</span>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard-icon  d-inline-block ms-3">
+                                        <i class="fa-solid fa-dollar-sign fs-3 fw-normal text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex col-3 shadow">
+                        <div class="border-0 card ">
+                            <div class="py-4 d-flex card-body">
+                                <div class=" row g-0 w-100">
+                                    <div class="col-6 flex-grow-1 d-inline p-3 text-primary">
+                                        <h3 style="color: rgb(73, 80, 87);">43</h3>
+                                        <p class="mb-0 text-muted">Pending Orders</p><br>
+                                        <div class="mb-0">
+                                            <span class="badge bg-danger me-2 badge">-4.25%</span>
+                                            <span class="text-muted">Since last week</span>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard-icon  d-inline-block ms-3">
+                                        <i class="fa-solid fa-bag-shopping fs-4 text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex col-3 shadow">
+                        <div class="border-0 card ">
+                            <div class="py-4 d-flex card-body">
+                                <div class=" row g-0 w-100">
+                                    <div class="col-6 flex-grow-1 d-inline p-3 text-primary">
+                                        <h3 style="color: rgb(73, 80, 87);">$ 18.700</h3>
+                                        <p class="mb-0 text-muted">Total Revenue</p><br>
+                                        <div class="mb-0">
+                                            <span class="badge bg-success me-2 badge">+8.65%</span>
+                                            <span class="text-muted">Since last week</span>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard-icon  d-inline-block ms-3">
+                                        <i class="fa-solid fa-dollar-sign fs-3 fw-normal text-primary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chart JS -->
+                <div class="row">
+                    <div class="d-flex d-inline  col-lg-8">
+                        <div class="charts shadow mt-4 py-4 px-4 ">
+                            <div class="p-0 d-flex">
+                                <div class=" row g-0 w-100">
+                                    <div class="chart-header d-flex justify-content-between">
+                                        <h5 class="text-muted ">Sales / Revenue</h5>
+                                        <i class="fa-solid fa-ellipsis fs-4 text-muted"></i>
+                                    </div>
+                                    <div>
+                                        <canvas id="myChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex d-inline col-lg-4">
+                        <div class="feed shadow mt-4 py-4 px-4 ">
+                            <div class="p-0 d-flex">
+                                <div class=" row g-0 w-100">
+                                    <div class="feed-header pb-4 d-flex justify-content-between">
+                                        <h5 class="text-muted ">Daily feed</h5>
+                                        <span class="float-end badge bg-info">Today</span>
+                                    </div>
+                                    <div class="daily-feed-body mt-4">
+                                        <div class="d-flex border-bottom text-muted mb-3">
+                                            <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar-2.jpg" alt="" class="src" width="100%" height="100%">
+                                            </div>
+                                            <div class="text-sm ms-1 flex-grow-1 mb-3">
+                                                <strong>Ashley Briggs</strong> started following <strong>Stacie Hall</strong><br><small>Today 7:51 pm</small>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex border-bottom text-muted mb-3">
+                                            <div class="ms-1 daily-feed-avtar lh-1 me-1" >
+                                                <img src="asset/images/nav-avtar.jpg" alt="" class="rounded-circle" width="35px" height="35px" >
+                                            </div>
+                                            <div class="text-sm ms-1 flex-grow-1 mb-3">
+                                                <strong>Chris Wood</strong>  posted something on <strong>Stacie Hall</strong> 's timeline<br><small>Today 7:21 pm</small>
+                                                <div class="text-sm border p-2 mt-1">
+                                                    Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing...
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex border-bottom text-muted mb-3">
+                                            <div class="ms-1 daily-feed-avtar rounded-circle overflow-hidden lh-1 me-1" style="width:35px; height:35px;" >
+                                                <img src="asset/images/nav-avtar-3.jpg" alt="" class="src" width="100%" height="100%">
+                                            </div>
+                                            <div class="text-sm ms-1 flex-grow-1 mb-3">
+                                                <strong>Stacie Hall</strong>  posted a new blog<br><small>Today 6:35 pm</small>
+                                            </div>
+                                        </div>
+                                        <div class="d-grid">
+                                            <button type="button" class="btn btn-primary btn-sm mt-4"> Load More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Chart JS -->
+
+                <!-- Calender Start -->
+                <div class="row">
+                    <div class="d-flex d-inline col-lg-4">
+                        <div class="calenders shadow mt-4 py-2 px-4 ">
+                            <div class="p-0 d-flex">
+                                <div class=" row g-0 w-100">
+                                    <div class="app">
+                                        <div class="cal-header d-flex justify-content-between">
+                                            <h5 class="text-muted ">Calender</h5>
+                                            <i class="fa-solid fa-ellipsis fs-4 text-muted"></i>
+                                        </div>
+                                        <div class="calendar atb text-muted table-hover">
+                                            <div class="container-calendar">
+                                                <h3 id="monthAndYear"></h3>
+                                                <div class="button-container-calendar">
+                                                    <button id="previous" onclick="previous()">&#8249;</button>
+                                                    <button id="next" onclick="next()">&#8250;</button>
+                                                </div>
+                                                <table class="table-calendar " id="calendar" data-lang="en">
+                                                    <thead id="thead-month"></thead>
+                                                    <tbody id="calendar-body"></tbody>
+                                                </table>
+                                                <div class="footer-container-calendar">
+                                                     <label for="month">Jump To: </label>
+                                                     <select id="month" onchange="jump()">
+                                                         <option value=0>Jan</option>
+                                                         <option value=1>Feb</option>
+                                                         <option value=2>Mar</option>
+                                                         <option value=3>Apr</option>
+                                                         <option value=4>May</option>
+                                                         <option value=5>Jun</option>
+                                                         <option value=6>Jul</option>
+                                                         <option value=7>Aug</option>
+                                                         <option value=8>Sep</option>
+                                                         <option value=9>Oct</option>
+                                                         <option value=10>Nov</option>
+                                                         <option value=11>Dec</option>
+                                                     </select>
+                                                     <select id="year" onchange="jump()"></select>       
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Calender End -->
+
+                    <!-- Doughnut Start -->
+                    <div class="d-flex d-inline col-lg-4">
+                        <div class="doughnut shadow mt-4 py-4 px-4 ">
+                            <div class="p-0 d-flex">
+                                <div class=" row g-0 w-100">
+                                    <div class="doughnut-header d-flex justify-content-between">
+                                        <h5 class="text-muted ">Weekly sales</h5>
+                                        <i class="fa-solid fa-ellipsis fs-4 text-muted"></i>
+                                    </div>
+                                    <div class="mx-auto" style="height: 400px; width: 450px">
+                                        <canvas id="myDoughnut" ></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <table class="table">
+                                <thead>
+                                  <tr class="text-muted">
+                                    <th scope="col">Source</th>
+                                    <th scope="col"></th>
+                                    <th scope="col">Revenue</th>
+                                    <th scope="col">Value</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr class="text-muted ">
+                                    <th scope="row"><i class="fa-solid fa-square " style="color: rgb(63,128,234);"></i> Direct</th>
+                                    <td></td>
+                                    <td>$ 2602</td>
+                                    <td class="text-center text-success">+43%</td>
+                                  </tr>
+                                  <tr class="text-muted">
+                                    <th scope="row"><i class="fa-solid fa-square" style="color: rgb(240,173,78);"></i> Affiliate</th>
+                                    <td></td>
+                                    <td>$ 1253</td>
+                                    <td class="text-center text-success">+13%</td>
+                                  </tr>
+                                  <tr class="text-muted">
+                                    <th scope="row"><i class="fa-solid fa-square" style="color: rgb(217,83,79)"></i> E-mail</th>
+                                    <td></td>
+                                    <td>$ 541</td>
+                                    <td class="text-center text-success">+24%</td>
+                                  </tr>
+                                  <tr class="text-muted">
+                                    <th scope="row"><i class="fa-solid fa-square" style="color: black;"></i> Other</th>
+                                    <td></td>
+                                    <td>$ 1465</td>
+                                    <td class="text-center text-success">+11%</td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Doughnut End -->
+
+                    <!-- Appointments Start -->
+                    <div class="d-flex d-inline col-lg-4">
+                        <div class="feed shadow mt-4 py-4 px-4 ">
+                            <div class="p-0 d-flex">
+                                <div class=" row g-0 w-100">
+                                    <div class="feed-header pb-4 d-flex justify-content-between">
+                                        <h5 class="text-muted ">Appointments</h5>
+                                        <i class="fa-solid fa-ellipsis fs-4 text-muted"></i>
+                                    </div>
+                                    <div class="daily-feed-body mt-2">
+                                        <div class="d-flex text-muted mb-3">
+                                            <ul class="timeline ms-2">
+                                                <li class="timeline-item text-muted text-sm">
+                                                    <strong>Chat with Carl and Ashley</strong>
+                                                    <p>Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris...</p>
+                                                </li>
+                                                <li class="timeline-item text-muted text-sm">
+                                                    <strong>The big launch</strong>
+                                                    <p>Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc...</p>
+                                                </li>
+                                                <li class="timeline-item text-muted text-sm">
+                                                    <strong>Coffee break</strong>
+                                                    <p>Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada...</p>
+                                                </li>
+                                                <li class="timeline-item text-muted text-sm">
+                                                    <strong>Chat with team</strong>
+                                                    <p>Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum...</p>
+                                                </li>
+                                                <li class="timeline-item text-muted text-sm">
+                                                    <strong>Chat with Carl and Ashley</strong>
+                                                    <p>Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris...</p>
+                                                </li>
+                                                <li class="timeline-item text-muted text-sm">
+                                                    <strong>The big launch</strong>
+                                                    <p>Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc...</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Appointments Start -->
+
+                <!-- Table Start -->
+                <div class="charts shadow-sm mt-4 py-2 px-3 ">
+                    <div class="p-0 d-flex">
+                        <div class=" row g-0 w-100">
+                            <div class="chart-header py-4 d-flex justify-content-between">
+                                <h5 class="text-muted">Latest Projects</h5>
+                                <i class="fa-solid fa-ellipsis fs-4 text-muted"></i>
+                            </div>
+                            <table class="table table-striped text-muted">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Start Date</th>
+                                    <th scope="col">End Date</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Assignee</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr class="text-muted">
+                                    <th scope="row">Project Apollo</th>
+                                    <td>01/01/2021</td>
+                                    <td>31/06/2021</td>
+                                    <td><span class="badge bg-success">Done</span></td>
+                                    <td>Carl Jenkins</td>
+                                  </tr>
+                                  <tr class="text-muted">
+                                    <th scope="row">Project Fireball</th>
+                                    <td>01/01/2021</td>
+                                    <td>31/06/2021</td>
+                                    <td><span class="badge bg-danger">Cancelled</span></td>
+                                    <td>Bertha Martin</td>
+                                  </tr>
+                                  <tr class="text-muted">
+                                    <th scope="row">Project Hades</th>
+                                    <td>01/01/2021</td>
+                                    <td>31/06/2021</td>
+                                    <td><span class="badge bg-success">Done</span></td>
+                                    <td>Stacie Hall</td>
+                                  </tr>
+                                  <tr class="text-muted">
+                                    <th scope="row">Project Nitro</th>
+                                    <td>01/01/2021</td>
+                                    <td>31/06/2021</td>
+                                    <td><span class="badge bg-warning">In progress</span></td>
+                                    <td>Carl Jenkins</td>
+                                  </tr>
+                                  <tr class="text-muted">
+                                    <th scope="row">Project Phoenix</th>
+                                    <td>01/01/2021</td>
+                                    <td>31/06/2021</td>
+                                    <td><span class="badge bg-success">Done</span></td>
+                                    <td>Bertha Martin</td>
+                                  </tr>
+                                  <tr class="text-muted">
+                                    <th scope="row">Project Romeo</th>
+                                    <td>01/01/2021</td>
+                                    <td>31/06/2021</td>
+                                    <td><span class="badge bg-success">Done</span></td>
+                                    <td>Ashley Briggs</td>
+                                  </tr>
+                                  <tr class="text-muted">
+                                    <th scope="row">Project Wombat</th>
+                                    <td>01/01/2021</td>
+                                    <td>31/06/2021</td>
+                                    <td><span class="badge bg-warning">In progress</span></td>
+                                    <td>Bertha Martin</td>
+                                  </tr>
+                                  <tr class="text-muted">
+                                    <th scope="row">Project Zircon</th>
+                                    <td>01/01/2021</td>
+                                    <td>31/06/2021</td>
+                                    <td><span class="badge bg-danger">Cancelled</span></td>
+                                    <td>Stacie Hall</td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Table End -->
+
+            <!-- Footer Start -->
+            <footer class="footer border-top p-3 shadow-sm">
+                <div class="container-fluid">
+                    <div class="text-muted row">
+                        <div class="text-start col-6">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><span class="text-muted" href="#">Support</span></li>
+                                <li class="list-inline-item"><span class="text-muted" href="#">Help Center</span></li>
+                                <li class="list-inline-item"><span class="text-muted" href="#">Privacy</span></li>
+                                <li class="list-inline-item"><span class="text-muted" href="#">Terms of Service</span></li>
+                            </ul>
+                        </div>
+                        <div class="text-end col-6">
+                            <p class="mb-0">© 2023 - <span href="/" class="text-muted">AppStack</span></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer End -->
+        </section>
+        <!-- Dashboard End -->
+    </div>
+    </div>
+
+    <!-- j-query -->
+    <script src="asset/js/jquery-3.6.3.min.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Chart js -->
+    <script src="asset/js/chart.js"></script>
+    <script src="asset/js/chartmain.js"></script>
+
+    <!-- Calender js -->
+    <script src="asset/js/calender.js"></script>
+
+    <script>
+        $('#my-toggle').click(function(){
+            $('.wapper').toggleClass('active').fadeIn('1000');
+        })
+    </script>
+
+</body>
+
+</html>
